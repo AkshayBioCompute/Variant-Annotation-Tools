@@ -2,10 +2,10 @@
 import csv
 
 # Path to the input TSV file
-input_file_path = r'D:\wellytics\test\1.tsv'
+input_file_path = r'D:test\1.tsv'
 
 # Path to save the filtered TSV file
-output_file_path = r'D:\wellytics\test\2.tsv'
+output_file_path = r'D:test\2.tsv'
 
 # Open the input TSV file for reading
 with open(input_file_path, 'r', newline='') as tsvfile:
