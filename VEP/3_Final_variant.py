@@ -1,7 +1,7 @@
 import csv
 
-file_path = r'D:\wellytics\test\2.tsv'
-output_file_path = r'D:\wellytics\test\3.tsv'
+file_path = r'D:\test\2.tsv'
+output_file_path = r'D:\test\3.tsv'
 
 def is_numeric(string):
     try:
