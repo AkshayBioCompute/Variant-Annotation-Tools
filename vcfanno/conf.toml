@@ -1,18 +1,18 @@
 [[annotation]]
-file="/home/akkey/Akshay/wellytics/test/clinvar/vcfanno/example/gnomad.exomes.r2.0.1.sites.vcf.gz"
+file="/home/akkey/Akshay/test/clinvar/vcfanno/example/gnomad.exomes.r2.0.1.sites.vcf.gz"
 fields = ["AC", "AN", "AC_AFR", "AN_AFR", "AC_AMR", "AN_AMR", "AC_ASJ", "AN_ASJ", "AC_EAS", "AN_EAS", "AC_FIN", "AN_FIN", "AC_NFE", "AN_NFE", "AC_OTH", "AN_OTH", "AC_SAS", "AN_SAS", "FILTER", "ID"]
 
 names = ["gno_ac_all", "gno_an_all", "gno_ac_afr", "gno_an_afr", "gno_ac_amr", "gno_an_amr", "gno_ac_asj", "gno_an_asj", "gno_ac_eas", "gno_an_eas", "gno_ac_fin", "gno_an_fin", "gno_ac_nfe", "gno_an_nfe", "gno_ac_oth", "gno_an_oth", "gno_ac_sas", "gno_an_sas", "gno_filter", "gno_id"]
 ops=["self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self"] 
 
 [[annotation]]
-file="/home/akkey/Akshay/wellytics/test/clinvar/vcfanno/example/clinvar.vcf.gz"
+file="/home/akkey/Akshay/test/clinvar/vcfanno/example/clinvar.vcf.gz"
 fields=["CLNSIG", "CLNDBN"]
 names=["clinvar_pathogenic", "clinvar_disease_name"]
 ops=["self", "self"]
 
 [[annotation]]
-file="/home/akkey/Akshay/wellytics/test/clinvar/vcfanno/example/resources_broad_hg38_v0_Homo_sapiens_assembly38.dbsnp138.vcf.gz"
+file="/home/akkey/Akshay/test/clinvar/vcfanno/example/resources_broad_hg38_v0_Homo_sapiens_assembly38.dbsnp138.vcf.gz"
 fields=["ID"]
 names=["dbsnp_id"]
 ops=["self"]
