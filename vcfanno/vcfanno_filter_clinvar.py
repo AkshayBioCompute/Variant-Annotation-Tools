@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the VCF file into a DataFrame
-vcf_file = r"D:\wellytics\test\1.vcf"
+vcf_file = r"D:\test\1.vcf"
 df = pd.read_csv(vcf_file, sep='\t', comment='#', header=None)
 
 # Define column names
@@ -20,7 +20,7 @@ df['Clinvar_significance'] = df[7].str.extract(r'clinvar_pathogenic=([^;]+)')
 df.columns = columns
 
 # Save the DataFrame to CSV
-csv_file = r"D:\wellytics\test\akj_vcfanno.csv"
+csv_file = r"D:\test\akj_vcfanno.csv"
 df.to_csv(csv_file, index=False)
 
 print("Conversion completed successfully. CSV file saved as:", csv_file)
