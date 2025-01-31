@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the TSV file into a DataFrame
-file_path = r'D:\wellytics\test\VEP_result_ENSEMBL.txt'
+file_path = r'D:\test\VEP_result_ENSEMBL.txt'
 df = pd.read_csv(file_path, sep='\t')
 
 # Print column names to verify
@@ -22,5 +22,5 @@ df.drop(columns=columns_to_delete_existing, inplace=True)
 df.drop_duplicates(subset=["Gene"], keep='last', inplace=True)
 
 # Save the modified DataFrame to a new TSV file
-output_file_path = r'D:\wellytics\test\1.tsv'
+output_file_path = r'D:\test\1.tsv'
 df.to_csv(output_file_path, sep='\t', index=False)
