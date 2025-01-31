@@ -52,7 +52,7 @@ The `test1.vcf` file was processed using **VEP** on a Windows system because the
 
 ### vcfAnno Command Used:
 ```sh
-./vcfanno -lua /home/akkey/Akshay/wellytics/test/clinvar/vcfanno/example/clinvar.lua \
+./vcfanno -lua /home/akkey/Akshay/test/clinvar/vcfanno/example/clinvar.lua \
 conf.toml test2.vcf > 1.vcf
 ```
 
